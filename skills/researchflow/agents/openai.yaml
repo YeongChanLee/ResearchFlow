@@ -1,0 +1,6 @@
+interface:
+  display_name: "ResearchFlow"
+  short_description: "Co-design an agile research specification"
+  default_prompt: "Use $researchflow to co-design a research specification with me, following the five stages and seeking scoped confirmation before approving decisions."
+policy:
+  allow_implicit_invocation: true
