@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the version of ResearchFlow that you actually use."
+type: software
+title: "ResearchFlow: Scientist-in-the-Loop Agile Research Specification"
+version: 0.1.0
+date-released: 2026-11-05
+authors:
+  - family-names: Lee
+    given-names: Yeong Chan
+license: MIT
+abstract: "A reusable AI-agent skill for collaborative, versioned research specification development before execution."
