@@ -1,0 +1,85 @@
+ResearchFlow 0.1.0 publication-session validation
+Date: 2026-11-07
+Python: 3.12.14; OS: Linux
+Command: python3 -m unittest discover -s tests -v
+All approval/evidence fixtures are synthetic; no hosted-model behavioral trials were run.
+
+test_behavioral_scenarios_are_not_claimed_as_model_runs (test_package.PackageTests.test_behavioral_scenarios_are_not_claimed_as_model_runs) ... ok
+test_canonical_skill_install_to_custom_directory (test_package.PackageTests.test_canonical_skill_install_to_custom_directory) ... ok
+test_checksum_file (test_package.PackageTests.test_checksum_file) ... ok
+test_distribution_inventory_excludes_private_and_caches (test_package.PackageTests.test_distribution_inventory_excludes_private_and_caches) ... ok
+test_extracted_skill_helper_initializes_and_checks (test_package.PackageTests.test_extracted_skill_helper_initializes_and_checks) ... ok
+test_installer_refuses_overwrite (test_package.PackageTests.test_installer_refuses_overwrite) ... ok
+test_installer_rejects_wrong_name (test_package.PackageTests.test_installer_rejects_wrong_name) ... ok
+test_installer_source_symlink_refused (test_package.PackageTests.test_installer_source_symlink_refused) ... ok
+test_project_scoped_destinations (test_package.PackageTests.test_project_scoped_destinations) ... ok
+test_publisher_dry_run_never_executes (test_package.PackageTests.test_publisher_dry_run_never_executes) ... ok
+test_publisher_existing_local_git_is_preserved (test_package.PackageTests.test_publisher_existing_local_git_is_preserved) ... ok
+test_publisher_owner_injection_rejected (test_package.PackageTests.test_publisher_owner_injection_rejected) ... ok
+test_publisher_stops_on_wrong_authenticated_account (test_package.PackageTests.test_publisher_stops_on_wrong_authenticated_account) ... ok
+test_publisher_stops_without_tools (test_package.PackageTests.test_publisher_stops_without_tools) ... ok
+test_repository_lint (test_package.PackageTests.test_repository_lint) ... ok
+test_reproducible_build (test_package.PackageTests.test_reproducible_build) ... ok
+test_zip_root_layout_and_inventory (test_package.PackageTests.test_zip_root_layout_and_inventory) ... ok
+test_added_snapshot_file_detected (test_researchflow.ResearchFlowTests.test_added_snapshot_file_detected) ... ok
+test_all_stages_approved_ready (test_researchflow.ResearchFlowTests.test_all_stages_approved_ready) ... ok
+test_change_id_path_traversal_refused (test_researchflow.ResearchFlowTests.test_change_id_path_traversal_refused) ... ok
+test_change_only_proposes_and_marks_affected_scope (test_researchflow.ResearchFlowTests.test_change_only_proposes_and_marks_affected_scope) ... ok
+test_change_resolution_requires_researcher_record (test_researchflow.ResearchFlowTests.test_change_resolution_requires_researcher_record) ... ok
+test_cli_baseline_not_ready_nonzero (test_researchflow.ResearchFlowTests.test_cli_baseline_not_ready_nonzero) ... ok
+test_cli_json_error_and_nonzero_exit (test_researchflow.ResearchFlowTests.test_cli_json_error_and_nonzero_exit) ... ok
+test_conditional_resource_requires_contingency (test_researchflow.ResearchFlowTests.test_conditional_resource_requires_contingency) ... ok
+test_confirmed_stage_records_receipt_and_audit (test_researchflow.ResearchFlowTests.test_confirmed_stage_records_receipt_and_audit) ... ok
+test_decision_log_change_invalidates_final_approval (test_researchflow.ResearchFlowTests.test_decision_log_change_invalidates_final_approval) ... ok
+test_downstream_confirmation_depends_on_prior_confirmation_status (test_researchflow.ResearchFlowTests.test_downstream_confirmation_depends_on_prior_confirmation_status) ... ok
+test_draft_check_passes_with_warnings (test_researchflow.ResearchFlowTests.test_draft_check_passes_with_warnings) ... ok
+test_draft_not_baseline_ready (test_researchflow.ResearchFlowTests.test_draft_not_baseline_ready) ... ok
+test_duplicate_change_refused (test_researchflow.ResearchFlowTests.test_duplicate_change_refused) ... ok
+test_duplicate_resource_ids_rejected (test_researchflow.ResearchFlowTests.test_duplicate_resource_ids_rejected) ... ok
+test_fixed_stage_order_enforced (test_researchflow.ResearchFlowTests.test_fixed_stage_order_enforced) ... ok
+test_full_agile_amendment_preserves_old_baseline (test_researchflow.ResearchFlowTests.test_full_agile_amendment_preserves_old_baseline) ... ok
+test_heading_name_enforced (test_researchflow.ResearchFlowTests.test_heading_name_enforced) ... ok
+test_init_keeps_unicode_and_quotes (test_researchflow.ResearchFlowTests.test_init_keeps_unicode_and_quotes) ... ok
+test_init_refuses_empty_title (test_researchflow.ResearchFlowTests.test_init_refuses_empty_title) ... ok
+test_init_refuses_existing_directory (test_researchflow.ResearchFlowTests.test_init_refuses_existing_directory) ... ok
+test_init_refuses_multiline_title (test_researchflow.ResearchFlowTests.test_init_refuses_multiline_title) ... ok
+test_integrity_failure_never_claims_handoff_readiness (test_researchflow.ResearchFlowTests.test_integrity_failure_never_claims_handoff_readiness) ... ok
+test_invalid_state_type_fails_clearly (test_researchflow.ResearchFlowTests.test_invalid_state_type_fails_clearly) ... ok
+test_lock_prevents_concurrent_mutation (test_researchflow.ResearchFlowTests.test_lock_prevents_concurrent_mutation) ... ok
+test_missing_recorded_snapshot_detected (test_researchflow.ResearchFlowTests.test_missing_recorded_snapshot_detected) ... ok
+test_modified_snapshot_detected (test_researchflow.ResearchFlowTests.test_modified_snapshot_detected) ... ok
+test_normal_check_detects_missing_final_condition_acknowledgement (test_researchflow.ResearchFlowTests.test_normal_check_detects_missing_final_condition_acknowledgement) ... ok
+test_open_baseline_issue_blocks (test_researchflow.ResearchFlowTests.test_open_baseline_issue_blocks) ... ok
+test_open_execution_issue_is_condition (test_researchflow.ResearchFlowTests.test_open_execution_issue_is_condition) ... ok
+test_optional_unavailable_resource_does_not_automatically_block (test_researchflow.ResearchFlowTests.test_optional_unavailable_resource_does_not_automatically_block) ... ok
+test_packet_does_not_mutate_state (test_researchflow.ResearchFlowTests.test_packet_does_not_mutate_state) ... ok
+test_pending_access_requires_conditional_acknowledgement (test_researchflow.ResearchFlowTests.test_pending_access_requires_conditional_acknowledgement) ... ok
+test_preamble_edit_invalidates_approvals (test_researchflow.ResearchFlowTests.test_preamble_edit_invalidates_approvals) ... ok
+test_reference_file_change_invalidates_stage2_and_later (test_researchflow.ResearchFlowTests.test_reference_file_change_invalidates_stage2_and_later) ... ok
+test_reject_empty_approval_source (test_researchflow.ResearchFlowTests.test_reject_empty_approval_source) ... ok
+test_reject_missing_quote (test_researchflow.ResearchFlowTests.test_reject_missing_quote) ... ok
+test_reject_placeholder_approval (test_researchflow.ResearchFlowTests.test_reject_placeholder_approval) ... ok
+test_reject_placeholder_researcher (test_researchflow.ResearchFlowTests.test_reject_placeholder_researcher) ... ok
+test_reject_receipt_with_changed_scope (test_researchflow.ResearchFlowTests.test_reject_receipt_with_changed_scope) ... ok
+test_reject_skipping_stage (test_researchflow.ResearchFlowTests.test_reject_skipping_stage) ... ok
+test_reject_timezone_free_receipt (test_researchflow.ResearchFlowTests.test_reject_timezone_free_receipt) ... ok
+test_reject_wrong_decision (test_researchflow.ResearchFlowTests.test_reject_wrong_decision) ... ok
+test_required_unavailable_resource_blocks_baseline (test_researchflow.ResearchFlowTests.test_required_unavailable_resource_blocks_baseline) ... ok
+test_resolved_issue_needs_resolution (test_researchflow.ResearchFlowTests.test_resolved_issue_needs_resolution) ... ok
+test_resource_metadata_change_invalidates_stage3_and_later (test_researchflow.ResearchFlowTests.test_resource_metadata_change_invalidates_stage3_and_later) ... ok
+test_snapshot_captures_hashes_and_preserves_draft (test_researchflow.ResearchFlowTests.test_snapshot_captures_hashes_and_preserves_draft) ... ok
+test_snapshot_manifest_traversal_rejected (test_researchflow.ResearchFlowTests.test_snapshot_manifest_traversal_rejected) ... ok
+test_snapshot_refuses_overwrite (test_researchflow.ResearchFlowTests.test_snapshot_refuses_overwrite) ... ok
+test_snapshot_rejects_traversal_version (test_researchflow.ResearchFlowTests.test_snapshot_rejects_traversal_version) ... ok
+test_snapshot_version_must_increase (test_researchflow.ResearchFlowTests.test_snapshot_version_must_increase) ... ok
+test_stage4_edit_preserves_earlier_approvals (test_researchflow.ResearchFlowTests.test_stage4_edit_preserves_earlier_approvals) ... ok
+test_symlink_inside_project_rejected (test_researchflow.ResearchFlowTests.test_symlink_inside_project_rejected) ... ok
+test_unrecorded_confirmed_status_rejected (test_researchflow.ResearchFlowTests.test_unrecorded_confirmed_status_rejected) ... ok
+test_unresolved_change_blocks_final_confirmation (test_researchflow.ResearchFlowTests.test_unresolved_change_blocks_final_confirmation) ... ok
+test_upstream_edit_invalidates_all_downstream (test_researchflow.ResearchFlowTests.test_upstream_edit_invalidates_all_downstream) ... ok
+test_verified_usable_requires_evidence (test_researchflow.ResearchFlowTests.test_verified_usable_requires_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 74 tests in 1.230s
+
+OK
