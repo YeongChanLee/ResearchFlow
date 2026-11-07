@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "title": "{{PROJECT_TITLE}}",
+  "research_mode": "unspecified",
+  "created_at": "{{CREATED_AT}}",
+  "updated_at": "{{CREATED_AT}}",
+  "stages": [
+    {
+      "id": 1,
+      "name": "Research Framing",
+      "status": "pending",
+      "approval": null
+    },
+    {
+      "id": 2,
+      "name": "Literature Discovery & Workflow Reconstruction",
+      "status": "pending",
+      "approval": null
+    },
+    {
+      "id": 3,
+      "name": "Data & Resource Co-design",
+      "status": "pending",
+      "approval": null
+    },
+    {
+      "id": 4,
+      "name": "Methodology & Evaluation Design",
+      "status": "pending",
+      "approval": null
+    },
+    {
+      "id": 5,
+      "name": "Specification Review & Baseline Approval",
+      "status": "pending",
+      "approval": null
+    }
+  ],
+  "sources": [],
+  "resources": [],
+  "issues": [],
+  "changes": [],
+  "baseline": null
+}
